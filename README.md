@@ -1,6 +1,6 @@
 # WhatsApp Bot Project
 
-This project implements a WhatsApp bot using Twilio, Flask, and OpenAI's language model.
+This project implements a WhatsApp bot using Twilio, Flask, and GPT40. We can implement it later with Anthropic API.
 
 ## Prerequisites
 
@@ -12,12 +12,15 @@ This project implements a WhatsApp bot using Twilio, Flask, and OpenAI's languag
 
 1. Clone the repository:
 git clone https://github.com/PatrickAttankurugu/whatsapp_bot.git
+
 cd whatsapp_bot
 
 2. Create a virtual environment and activate it:
    
 python -m venv venv
-source venv/bin/activate  # On Windows, use venv\Scripts\activate
+source venv/bin/activate 
+
+On Windows, use venv\Scripts\activate
 
 3. Install dependencies:
 pip install -r requirements.txt
@@ -25,7 +28,9 @@ pip install -r requirements.txt
 4. Create a `.env` file in the project root and add your Twilio and OpenAI credentials:
 
 TWILIO_ACCOUNT_SID=your_account_sid
+
 TWILIO_AUTH_TOKEN=your_auth_token
+
 OPENAI_API_KEY=your_openai_api_key
 
 5. Sign up for a Twilio account and obtain a Twilio phone number.
