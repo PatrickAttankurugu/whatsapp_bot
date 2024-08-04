@@ -11,8 +11,8 @@ This project implements a WhatsApp bot using Twilio, Flask, and OpenAI's languag
 ## Setup Instructions
 
 1. Clone the repository:
-   git clone [repository URL]
-cd [repository name]
+git clone https://github.com/PatrickAttankurugu/whatsapp_bot.git
+cd whatsapp_bot
 
 2. Create a virtual environment and activate it:
    
@@ -76,7 +76,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Project Link: [https://github.com/yourusername/repo-name](https://github.com/yourusername/repo-name)
+Project Link: [https://github.com/PatrickAttankurugu/whatsapp_bot](https://github.com/PatrickAttankurugu/whatsapp_bot)
 
 ## Note for Collaborators
 
